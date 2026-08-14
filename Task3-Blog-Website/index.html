@@ -1,142 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Srishti's Blog</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <header>
-        <nav>
-            <h2 class="logo">Srishti's Blog</h2>
+<header>
+    <h1>Srishti's Blog</h1>
+    <p>Thoughts, Ideas & Stories</p>
+</header>
 
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#articles">Articles</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#posts">Blog Posts</a>
+    <a href="#contact">Contact</a>
+</nav>
 
+<main>
 
-    <!-- Home Section -->
     <section id="home" class="hero">
-
-        <div class="hero-content">
-
-            <h1>Welcome to My Blog</h1>
-
-            <p>
-                Exploring technology, programming, learning,
-                and everything in between.
-            </p>
-
-            <a href="#articles" class="btn">Read My Articles</a>
-
-        </div>
-
+        <h2>Welcome to My Blog ✨</h2>
+        <p>
+            A place where I share my thoughts, experiences,
+            ideas and things I learn along the way.
+        </p>
     </section>
 
-
-    <!-- Articles Section -->
-    <section id="articles" class="articles">
-
-        <h2>Latest Articles</h2>
-
-        <div class="article-container">
-
-            <article class="article-card">
-
-                <h3>Getting Started with Web Development</h3>
-
-                <p>
-                    Learn the basics of HTML, CSS, and JavaScript
-                    and start building your first website.
-                </p>
-
-                <a href="#" class="read-more">Read More →</a>
-
-            </article>
-
-
-            <article class="article-card">
-
-                <h3>Why JavaScript is Important</h3>
-
-                <p>
-                    Discover how JavaScript makes websites
-                    interactive and dynamic.
-                </p>
-
-                <a href="#" class="read-more">Read More →</a>
-
-            </article>
-
-
-            <article class="article-card">
-
-                <h3>My Journey as a CSE Student</h3>
-
-                <p>
-                    My experience learning programming,
-                    building projects, and exploring technology.
-                </p>
-
-                <a href="#" class="read-more">Read More →</a>
-
-            </article>
-
-        </div>
-
-    </section>
-
-
-    <!-- About Section -->
-    <section id="about" class="about">
-
+    <section id="about">
         <h2>About Me</h2>
-
         <p>
-            Hi! I'm Srishti, a Computer Science and Engineering student
-            interested in frontend development and technology.
-            This blog is a place where I share my learning,
-            experiences, and projects.
+            Hi! I'm Srishti, a Computer Science student and
+            aspiring developer. I enjoy learning new technologies,
+            creating projects and exploring new ideas.
         </p>
+    </section>
+
+    <section id="posts">
+        <h2>Latest Blog Posts</h2>
+
+        <article class="post">
+            <h3>My Journey into Web Development</h3>
+            <p class="date">August 2026</p>
+            <p>
+                My journey into web development started with
+                learning HTML, CSS and JavaScript. Building
+                websites has helped me understand how technology
+                can turn creative ideas into interactive experiences.
+            </p>
+            <button onclick="readMore()">Read More</button>
+        </article>
+
+        <article class="post">
+            <h3>Why I Love Learning Technology</h3>
+            <p class="date">August 2026</p>
+            <p>
+                Technology is constantly evolving, which makes
+                learning exciting. Every new project gives me
+                an opportunity to improve my skills and discover
+                something new.
+            </p>
+            <button onclick="readMore()">Read More</button>
+        </article>
 
     </section>
 
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-
+    <section id="contact">
         <h2>Contact Me</h2>
-
-        <p>
-            Have a question or want to connect?
-        </p>
-
-        <a href="mailto:your-email@example.com" class="btn">
-            Send Me an Email
-        </a>
-
+        <p>Email: srishti@example.com</p>
     </section>
 
+</main>
 
-    <footer>
-        <p>© 2026 Srishti's Blog. All rights reserved.</p>
-    </footer>
+<footer>
+    <p>© 2026 Srishti Sarkar | My Blog</p>
+</footer>
 
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 
 </body>
-
 </html>
